@@ -79,7 +79,16 @@
   --bs-highlight-bg: #fff3cd;
 }
 ::-webkit-scrollbar{
-  background: red;
+  width: 8px;
+  background: rgba(224, 219, 219, 0.961);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background: lightgrey;
+  transition: all .5s ease;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: darkgrey;
 }
 *,
 *::before,
