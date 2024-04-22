@@ -83,12 +83,12 @@
   background: rgba(224, 219, 219, 0.961);
 }
 ::-webkit-scrollbar-thumb{
-  border-radius: 20px;
-  background: lightgrey;
+  border-radius: 0px;
+  background: darkgrey;
   transition: all .5s ease;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: darkgrey;
+  background: rgb(133, 130, 130);
 }
 *,
 *::before,
